@@ -432,6 +432,10 @@ a:after {
 	background-image: url('../img/bg/divider6.jpg')
 }
 
+.divider6 a{
+    color: #f5ad20;
+}
+
 
 
 /* ==========================================================================

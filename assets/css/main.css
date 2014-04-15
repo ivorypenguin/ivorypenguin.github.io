@@ -312,7 +312,7 @@ a:after {
 	text-shadow: 1px 1px 1px #000;
 }
 
-#greywrap {
+.greywrap {
 	background: #f5f5f5;
 	margin-top: 0px;
 	padding-top: 40px;
@@ -320,11 +320,11 @@ a:after {
 	text-align: center;
 }
 
-#greywrap .callout {
+.greywrap .callout {
 	margin-bottom: 20px;
 }
 
-#greywrap p {
+.greywrap p {
 	margin-left: 30px;
 	margin-right: 30px;
 	letter-spacing: 1px;
@@ -332,7 +332,7 @@ a:after {
 	padding-bottom: 15px;
 }
 
-#greywrap .fa {
+.greywrap .fa {
 	font-size: 60px;
 	line-height: 30px;
 	margin-bottom: 10px;
@@ -639,3 +639,7 @@ a:after {
 	}
 }
 
+.team-headshot {
+    height: 120px;
+    width: 120px;
+}

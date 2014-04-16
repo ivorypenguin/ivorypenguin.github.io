@@ -643,3 +643,7 @@ a:after {
     height: 120px;
     width: 120px;
 }
+
+.strike {
+    text-decoration: line-through;
+}

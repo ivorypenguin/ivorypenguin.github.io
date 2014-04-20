@@ -150,7 +150,9 @@ hr:before {
 }
 
 a img {
-    background: white;
+    background: transparent;
+    height: 30px;
+    margin-top: -5px;
 }
 
 .odd a img {

@@ -421,7 +421,7 @@ a:after {
 
 .divider3 {
 	background-image: url('../img/bg/divider3.jpg');
-	margin-top: 0px;
+	margin-top: 0;
 }
 
 .divider4 {
@@ -429,7 +429,8 @@ a:after {
 }
 
 .divider6 {
-	background-image: url('../img/bg/divider6.jpg')
+	background-image: url('../img/bg/divider6.jpg');
+    margin-top: 0;
 }
 
 .divider6 a{

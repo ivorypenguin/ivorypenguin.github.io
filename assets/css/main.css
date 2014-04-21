@@ -304,10 +304,11 @@ a:after {
 
 .headerwrap p {
 	color:#ffffff;
-	font-size: 40px;
+    font-family: 'Oleo Script', cursive;
+	font-size: 72px;
 	font-weight: 400;
 	text-align: center;
-	line-height: 40px;
+	line-height: 72px;
 	letter-spacing: 3px;
 	margin-left: 15px;
 	text-shadow: 1px 1px 1px #000;

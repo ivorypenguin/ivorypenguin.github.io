@@ -296,7 +296,6 @@ a:after {
 .headerwrap h1 {
 	color:#ffffff;
 	margin-top: 90px;
-	padding-bottom: 30px;
 	letter-spacing: 8px;
 	font-size: 100px;
 	font-weight: bold;
@@ -649,4 +648,15 @@ a:after {
 
 .strike {
     text-decoration: line-through;
+}
+
+.iggers {
+ width: 144px;
+ height:198px;
+ display:inline-block;
+ background:transparent url('../img/iggie-silo-fill.png') center top no-repeat;
+}
+
+.iggers:hover {
+   background-image: url('../img/iggie.png');
 }

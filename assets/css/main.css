@@ -408,6 +408,7 @@ a:after {
 .textdivider p {
 	color: white;
 	font-size: 25px;
+	text-shadow: 1px 1px #818181;
 }
 
 

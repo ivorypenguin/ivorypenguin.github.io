@@ -93,6 +93,13 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .col-md-4 {
 	padding-bottom: 20px;
 }
@@ -277,9 +284,9 @@ a:after {
 	margin-top: -50px;
 	padding-top:120px;
 	text-align:center;
-	background-attachment: relative;
+	background-attachment: fixed;
 	background-position: center center;
-	min-height: 650px;
+	height: 650px;
 	width: 100%;
 
     -webkit-background-size: 100%;
@@ -415,11 +422,12 @@ a:after {
 /* Section Dividers Backgrounds */
 
 .divider1 {
-	background-image: url('../img/bg/divider1.jpg')
+	background-image: url('../img/bg/divider1.jpg');
+  max-height: 450px;
 }
 
 .divider2 {
-	background-image: url('../img/bg/divider2.jpg')
+	background-image: url('../img/bg/divider2.jpg');
 }
 
 .divider3 {
@@ -433,7 +441,7 @@ a:after {
 
 .divider6 {
 	background-image: url('../img/bg/divider6.jpg');
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .divider6 a{

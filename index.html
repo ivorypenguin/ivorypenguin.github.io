@@ -1,435 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="IVORY PENGUIN">
-    <link rel="shortcut icon" href="assets/ico/iconfav.png">
+    <meta name="description" content="Ivory Penguin - Because Not All AI Code is Created Equal. Professional AI code debugging, refactoring, and production-ready solutions.">
+    <link rel="shortcut icon" href="assets/img/iggie.png">
+    
+    <title>Ivory Penguin - AI Code Perfection</title>
+    
+    <link href="assets/css/modern.css" rel="stylesheet">
+    
+    <script>
+        // Simple smooth scroll
+        function scrollTo(element) {
+            document.querySelector(element).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</head>
 
-    <title> ivorypenguin </title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/icomoon.css">
-    <link href="assets/css/animate-custom.css" rel="stylesheet">
-
-
-    <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
-
-    <script src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
-
-
-    <div id="navbar-main">
-      <!-- Fixed navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <img height="30px" src="assets/img/iggie-silo-fill.png"/>
-          </button>
-          <a class="navbar-brand hidden-xs hidden-sm" href="#home">
-            <img src="assets/img/iggie-silo-fill.png"/>
-          </a>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/img/iggie.png" alt="Ivory Penguin" class="logo">
+                <span class="logo-text">IVORY PENGUIN</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" onclick="scrollTo('#home')">Home</a>
+                <a href="#services" onclick="scrollTo('#services')">Services</a>
+                <a href="#about" onclick="scrollTo('#about')">About</a>
+                <a href="#contact" onclick="scrollTo('#contact')">Contact</a>
+            </div>
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#home" class="smoothScroll">Home</a></li>
-            <li> <a href="#about" class="smoothScroll"> About</a></li>
-            <li> <a href="#values" class="smoothScroll"> Values</a></li>
-            <li> <a href="#team" class="smoothScroll"> Team</a></li>
-            <!-- <li> <a href="#portfolio" class="smoothScroll"> Portfolio</a></li> -->
-            <li> <a href="#contact" class="smoothScroll"> Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-    </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="hero-tagline">Because Not All AI Code is Created Equal.</p>
+                
+                <h1 class="hero-title">Your AI wrote the code.<br>Now what?</h1>
+                
+                <div class="hero-story">
+                    <div class="tech-bro-section">
+                        <img src="assets/img/tech-bro.png" alt="Tech Bro riding AI crab" class="tech-bro-image">
+                        <p class="hero-problem">
+                            <strong>Meet the problem:</strong> Overconfident developers riding the AI wave, generating broken functions, spaghetti logic, and mysterious bugs faster than ever.
+                        </p>
+                    </div>
+                    
+                    <div class="solution-arrow">↓</div>
+                    
+                    <div class="solution-section">
+                        <p class="hero-solution">
+                            <strong>That's where Ivory Penguin comes in.</strong><br>
+                            We're the human intelligence that makes artificial intelligence work.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="hero-actions">
+                    <a href="#contact" onclick="scrollTo('#contact')" class="btn-primary">Get Started</a>
+                    <a href="#services" onclick="scrollTo('#services')" class="btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Specialties Include:</h2>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Debugging and refactoring AI-generated code</h3>
+                    <p>We identify and fix the issues in AI-generated code, transforming messy logic into clean, maintainable solutions.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🛡️</div>
+                    <h3>Security hardening and compliance checks</h3>
+                    <p>Ensure your AI-generated code meets security standards and regulatory requirements with our thorough auditing process.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Architecture realignment for performance & scalability</h3>
+                    <p>Restructure AI code for optimal performance, scalability, and long-term maintainability in production environments.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🚀</div>
+                    <h3>Real-world readiness: testing, documentation & deploy</h3>
+                    <p>Complete the journey from AI prototype to production-ready application with comprehensive testing and deployment support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <!-- ==== HEADERWRAP ==== -->
-        <div class="headerwrap parallax" id="home">
-            <header class="clearfix">
-                    <h1><a class="iggers" href="#"></a></h1>
-                    <p>Ivory Penguin</p>
-                    <!-- <p>the shoulders of giants</p> -->
-            </header>
-        </div><!-- /headerwrap -->
-
-        <!-- ==== GREYWRAP ==== -->
-        <div class="greywrap">
-          <div class="container">
-            <div class="row">
-                <div class="col-md-4 callout">
-                    <i class="fa fa-lightbulb-o"></i>
-                    <h2>Design</h2>
-                    <p>We’ll work with you to create an identity that suits you and a development plan that fits your needs. </p>
-                </div><!-- col-md-4 -->
-
-                <div class="col-md-4 callout">
-                    <i class="fa fa-heart"></i>
-                    <h2>Develop</h2>
-                    <p>We have a passion for development. Our talented team will craft you a delightful application from top to bottom.</p>
-                </div><!-- col-md-4 -->
-
-                <div class="col-md-4 callout">
-                    <i class="fa fa-rocket"></i>
-                    <h2>Deploy</h2>
-                    <p>We’ll launch your Minimum <span class="strike">Viable</span> Loveable Product (MLP) and help foster growth and success for your business. </p>
-                </div><!-- col-md-4 -->
-
-            </div><!-- row -->
-          </div><!-- container -->
-        </div><!-- greywrap -->
-
-        <!-- ==== ABOUT ==== -->
-        <div class="container" id="about">
-            <div class="row white">
-                <h1 class="centered">WHO WE ARE</h1>
-                <hr>
-
-                <div class="col-md-6">
-                <p>In 2008, Ivory Penguin started as an education software consulting firm. Spurred by our love for learning, we wanted to create technology that promoted continuous education. But over the years, it became clear that we had a passion for other things, too. We love startups, penguins, kittens, non-profits, people, design, and, well, everything. We love building delightful software that is fun, sexy, and easy.</p>
-		</div><!-- col-md-6 -->
-
-                <div class="col-md-6">
-                <p>So, in order to do what we do best, we branched out. We collected more amazing people who understand our values. Our talented team has designed apps, developed websites, and deployed software to servers. Whatever we're doing, it's something we love. And this is how we came to be. This is who we are: a software firm that funnels their love for everything into loveable software for you.</p>
-		</div><!-- col-md-6 -->
-            </div><!-- row -->
-        </div><!-- container -->
-
-        <!-- ==== SECTION DIVIDER1 -->
-        <section class="section-divider textdivider divider1 parallax">
-            <div class="container">
-                <h1>CRAFTSMANSHIP IS PARAMOUNT</h1>
-                <hr>
-                <p>Raising the bar of professional software development by practicing it and helping others learn the craft.</p>
-            </div><!-- container -->
-        </section><!-- section -->
-
-
-        <!-- ==== values ==== -->
-        <div class="container" id="values">
-            <div class="row">
-                <h2 class="centered">OUR VALUES</h2>
-                <hr>
-                <div class="col-md-offset-2 col-md-8">
-                    <p>Here at Ivory Penguin, we do more than just value software craftsmanship. We live by it. Craftsmanship is a part of us. We believe that software should not only work but be well-written, valuable, and perhaps most importantly, loveable.
+    <!-- Why Choose Us Section -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="why-content">
+                <div class="why-text">
+                    <h2>Why Choose Us?</h2>
+                    <ul class="why-list">
+                        <li><strong>Real engineers. Real solutions.</strong></li>
+                        <li><strong>Expert understanding of LLM behavior and quirks</strong></li>
+                        <li><strong>Fast turnarounds for projects gone "rogue"</strong></li>
+                        <li><strong>Custom code tuning for production-grade reliability</strong></li>
+                    </ul>
+                    
+                    <p class="why-summary">
+                        Whether it's GPT, Copilot, or Claude that built your codebase,<br>
+                        <strong>Ivory Penguin makes it production perfect.</strong>
                     </p>
-                    <p>Loving what you do and what you build is absolutely paramount in launching successful companies. We really take that to heart when building new products. If we wanted to be an average software development company, we could build you a minimum viable product. But we know that ordinary doesn't cut it. So instead, we build minimum loveable products - software that is lovingly made and lovingly used. We love crafting fantastic user experience and beautifully designed software, and every day we strive to become better at our craft.
-                    </p>
-                    <p>Continuous learning and growth is central to what we do. Our team believes that education is wonderful and should be accessible to everyone. That's why sharing is so important. We want the world to know and share our passion for technology and learning.</p>
-                </div><!-- col-md -->
-            </div><!-- row -->
-
-        </div><!-- container -->
-
-
-        <!-- ==== SECTION DIVIDER2 -->
-        <section class="section-divider textdivider divider2 parallax">
-            <div class="container">
-                <h1>EDUCATION IS KEY</h1>
-                <hr>
-                <p>Collaborative learning and growth is something to share with the world.</p>
-            </div><!-- container -->
-        </section><!-- section -->
-
-        <!-- ==== TEAM MEMBERS ==== -->
-        <div class="container" id="team">
-            <div class="row white centered">
-                <h1 class="centered">MEET OUR AWESOME TEAM</h1>
-                <hr>
-            </div>
-            <div class="row">
-
-                <div class="col-md-4 centered">
-                    <img class="img img-circle team-headshot" src="assets/img/team/ryan.jpg" alt="">
-                    <h4>Ryan Gillett</h4>
-                    <h5>Developer</h5>
-                    <a target="_blank" href="https://twitter.com/ryandefine" class="fa fa-twitter fa-fw"></a>
-                    <a target="_blank" href="#" class="fa fa-github fa-fw"></a>
-                    <a target="_blank" href="https://www.linkedin.com/pub/ryan-gillett/76/760/a9a" class="fa fa-linkedin fa-fw"></a>
-                </div><!-- col-md-4 -->
-
-                <div class="col-md-4 centered">
-                    <img class="img img-circle team-headshot" src="assets/img/team/mike.jpg" alt="">
-                    <h4>Mike Holliday</h4>
-                    <h5>Developer</h5>
-                    <a target="_blank" href="https://twitter.com/MikeSkidoodles" class="fa fa-twitter fa-fw"></a>
-                    <a target="_blank" href="#" class="fa fa-github fa-fw"></a>
-                    <a target="_blank" href="https://www.linkedin.com/pub/michael-holliday/64/943/270" class="fa fa-linkedin fa-fw"></a>
-                </div><!-- col-md-4 -->
-
-                <div class="col-md-4 centered">
-                    <img class="img img-circle team-headshot" src="assets/img/team/team04.jpg" alt="">
-                    <h4>Jessica Legner</h4>
-                    <h5>Developer</h5>
-                    <a target="_blank" href="https://twitter.com/jlegner" class="fa fa-twitter fa-fw"></a>
-                    <a target="_blank" href="http://jessicalegner.com/" class="fa fa-html5 fa-fw"></a>
-                    <a target="_blank" href="https://www.linkedin.com/pub/jessica-legner/28/b32/2aa" class="fa fa-linkedin fa-fw"></a>
-                </div><!-- col-md-4 -->
-            </div>
-            <div class="row">
-<div class="col-md-4 centered">
-                    <img class="img img-circle team-headshot" src="assets/img/team/jamie.jpg" alt="">
-                    <h4>Jamie Smylnycky</h4>
-                    <h5>Designer</h5>
-                    <a target="_blank" href="http://shadryn.com/" class="fa fa-tumblr"></a>
-                    <a target="_blank" href="http://jackalope.design/" class="fa fa-html5 fa-fw"></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/jamie-smylnycky-76740194" class="fa fa-linkedin fa-fw"></a>
                 </div>
-                <div class="col-md-4 centered">
-                    <img class="img img-circle team-headshot" src="assets/img/team/aaron.jpg" alt="">
-                    <h4>Aaron Maturen</h4>
-                    <h5>Developer</h5>
-                    <a target="_blank" href="http://www.twitter.com/atmaturen" class="fa fa-twitter fa-fw"></a>
-                    <a target="_blank" href="http://www.github.com/aaronmaturen" class="fa fa-github fa-fw"></a>
-                    <a target="_blank" href="https://www.linkedin.com/pub/aaron-maturen/22/835/828" class="fa fa-linkedin fa-fw"></a>
-                </div><!-- col-md-4 -->
-
-                <div class="col-md-4 centered">
-                    <img class="img img-circle team-headshot" src="assets/img/team/dylan.jpg" alt="">
-                    <h4>Dylan Swartz</h4>
-                    <h5>Developer</h5>
-                    <a target="_blank" href="https://twitter.com/dylan_swartz" class="fa fa-twitter fa-fw"></a>
-                    <a target="_blank" href="https://github.com/dylanswartz" class="fa fa-github fa-fw"></a>
-                    <a target="_blank" href="https://www.linkedin.com/pub/dylan-swartz/38/89/459/" class="fa fa-linkedin fa-fw"></a>
-                </div><!-- col-md-4 -->
-
-            </div><!-- row -->
-
-            <div class="row">
-                <div class="col-md-4 centered">
-                    <img class="img img-circle team-headshot" src="assets/img/team/mitch.jpg" alt="">
-                    <h4>Mitchell Wolfgang</h4>
-                    <h5>DevOps</h5>
-                    <a target="_blank" href="https://twitter.com/foglatch" class="fa fa-twitter fa-fw"></a>
-                    <a target="_blank" href="mailto:mitchell@ivorypenguin.com" class="fa fa-envelope-o fa-fw"></a>
-                    <a target="_blank" href="https://www.linkedin.com/pub/mitch-wolfgang/46/92a/462" class="fa fa-linkedin fa-fw"></a>
-                </div>
-		    
-	        <div class="col-md-4 centered">
-                    <img class="img img-circle team-headshot" src="assets/img/team/jason.jpg" alt="">
-                    <h4>Jason Smylnycky</h4>
-                    <h5>Developer</h5>
-                    <a target="_blank" href="https://github.com/jsmylnycky" class="fa fa-github fa-fw"></a>
-                </div>
-
-                <div class="col-md-4 centered">
-                    <img class="img img-circle team-headshot" src="assets/img/team/dustyn.jpg" alt="">
-                    <h4>Dustyn Tubbs</h4>
-                    <h5>Research Science</h5>
-                    <a target="_blank" href="https://twitter.com/dustyntubbs" class="fa fa-twitter fa-fw"></a>
-                    <a target="_blank" href="https://github.com/MagnificRogue" class="fa fa-github fa-fw"></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/dustyntubs" class="fa fa-linkedin fa-fw"></a>
-                </div>
-
-            </div><!-- row -->
-
-        </div><!-- container -->
-
-        <!-- ==== GREYWRAP ==== -->
-        <!-- <div class="greywrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 centered">
-                        <img class="img-responsive" src="assets/img/macbook.png" alt="we're hiring">
-                    </div>
-                    <div class="col-md-4">
-                        <h2>We Are Hiring!</h2>
-                        <p>Are you excited about life? Do you want to change the world? Do you love and share the love? Reach out to us, we want to meet you.</p>
-                        <p><a class="btn btn-success">Contact Us</a></p>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-        <!-- ==== SECTION DIVIDER3 -->
-        <!-- <section class="section-divider textdivider divider3">
-            <div class="container">
-                <h1>LOVE IS VITAL</h1>
-                <hr>
-                <p>Love while crafting products results in love when using products.</p>
-            </div>
-        </section> -->
-
-        <!-- ==== PORTFOLIO ==== -->
-
-            <!-- <div class="row">
-                <h1 class="centered">WE CRAFT LOVABLE PRODUCTS</h1>
-                <hr>
-            </div> -->
-            <!-- <div class="container" id="portfolio"> -->
-            <!-- <div class="row"> -->
-
-                <!-- PORTFOLIO IMAGE 1 -->
-                <!-- <div class="col-md-4 ">
-                    <div class="grid mask">
-                        <figure>
-                            <img class="img-responsive" src="assets/img/portfolio/folio01.jpg" alt="">
-                            <figcaption>
-                                <h5>ECON THING</h5>
-                                <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div> -->
-
-
-                         <!-- MODAL SHOW THE PORTFOLIO IMAGE. In this demo, all links point to this modal. You should create
-                              a modal for each of your projects. -->
-
-                          <!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                  <h4 class="modal-title">Project Title</h4>
-                                </div>
-                                <div class="modal-body">
-                                  <p><img class="img-responsive" src="assets/img/portfolio/folio01.jpg" alt=""></p>
-                                  <p>This project was crafted for Some Name corp. Detail here a little about your job requirements and the tools used. Tell about the challenges faced and what you and your team did to solve it.</p>
-                                  <p><a href="#">Visit Site</a></p>
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                </div>
-                              </div>
+                
+                <div class="why-visual">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <div class="window-controls">
+                                <span class="control red"></span>
+                                <span class="control yellow"></span>
+                                <span class="control green"></span>
                             </div>
-                          </div> -->
-
-
-                <!-- PORTFOLIO IMAGE 2 -->
-                <!-- <div class="col-md-4">
-                    <div class="grid mask">
-                        <figure>
-                            <img class="img-responsive" src="assets/img/portfolio/folio02.jpg" alt="">
-                            <figcaption>
-                                <h5>TURNIP</h5>
-                                <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-                            </figcaption>
-                        </figure>
+                            <span class="window-title">main.py</span>
+                        </div>
+                        <div class="code-content">
+                            <div class="code-line"><span class="line-number">1</span><span class="code">def process_data(data):</span></div>
+                            <div class="code-line"><span class="line-number">2</span><span class="code">    # AI generated this...</span></div>
+                            <div class="code-line"><span class="line-number">3</span><span class="code">    result = []</span></div>
+                            <div class="code-line"><span class="line-number">4</span><span class="code">    for i in range(len(data)):</span></div>
+                            <div class="code-line error"><span class="line-number">5</span><span class="code">        if data[i] != None:</span></div>
+                            <div class="code-line"><span class="line-number">6</span><span class="code">            result.append(data[i])</span></div>
+                        </div>
                     </div>
-                </div> -->
-
-                <!-- PORTFOLIO IMAGE 3 -->
-                <!-- <div class="col-md-4">
-                    <div class="grid mask">
-                        <figure>
-                            <img class="img-responsive" src="assets/img/portfolio/folio03.jpg" alt="">
-                            <figcaption>
-                                <h5>UBM</h5>
-                                <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-                            </figcaption>
-                        </figure>
+                    <div class="penguin-helper">
+                        <img src="assets/img/iggie.png" alt="Ivory Penguin helping" class="penguin-icon">
+                        <div class="speech-bubble">Let me fix that for you!</div>
                     </div>
-                </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <!-- </div> -->
-        </div><!-- /row -->
-    </div><!-- /container -->
-
-        <!-- ==== SECTION DIVIDER6 ==== -->
-        <section class="section-divider textdivider divider6 parallax">
-            <div class="container">
-                <h1>LOVINGLY CRAFTED IN MICHIGAN</h1>
-                <hr>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Elegant Solutions for Awkward Code.</h2>
+            </div>
+            
+            <div class="about-content">
                 <p>
-                    <a class="fa fa-twitter fa-fw" href="http://www.twitter.com/ivorypenguin"></a> |
-                    <a class="fa fa-github fa-fw" href="http://www.github.com/ivorypenguin"></a> |
-                    <a class="fa fa-envelope fa-fw" href="mailto:hello@ivorypenguin.com"></a>
+                    In today's world, AI can generate code faster than ever before. But speed doesn't equal quality. 
+                    That's where Ivory Penguin steps in—we're the human expertise that transforms AI-generated 
+                    prototypes into production-ready, maintainable, and reliable software.
                 </p>
-            </div><!-- container -->
-        </section><!-- section -->
-
-        <div class="container" id="contact">
-            <div class="row">
-                <h1 class="centered">THANKS FOR VISITING US</h1>
-                <hr>
-                <div class="col-md-4">
-                    <h3>Contact Information</h3>
-                    <p><i class="fa fa-envelope fa-fw"></i> <a href="mailto:hello@ivorypenguin.com"> hello@ivorypenguin.com</a> <br/>
-                        <i class="fa fa-twitter fa-fw"></i> <a href="http://www.twitter.com/ivorypenguin"> @ivorypenguin </a> <br/>
-                        <i class="fa fa-github fa-fw"></i> <a href="http://www.github.com/ivorypenguin"> Ivory Penguin </a> <br/>
-                        <i class="fa fa-facebook fa-fw"></i> <a href="http://www.facebook.com/ivorypenguin"> Ivory Penguin </a> <br/>
-                    </p>
-                </div><!-- col -->
-
-                 <div class="col-md-4">
-                    <h3>Work With Us</h3>
-                    <p>We'd love to talk if you have any potential work for us to help you with. Shoot us an email at <a href="mailto:hello@ivorypenguin.com"> hello@ivorypenguin.com</a> and we'll be in touch.</p>
-                </div><!-- col -->
-
-                <div class="col-md-4">
-                    <h3>Be Our Friend</h3>
-                    <p>If you just want to say "hi" or would like to chat about anything. We'd be happy to hear from you. Ping us!</p>
-                    <p>
-                        <!-- <form class="form-horizontal" role="form">
-                          <div class="form-group">
-                            <label for="inputEmail1" class="col-md-4 control-label"></label>
-                            <div class="col-md-10">
-                              <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
-                            </div>
-                          </div>
-                          <div class="form-group">
-                            <label for="text1" class="col-md-4 control-label"></label>
-                            <div class="col-md-10">
-                              <input type="text" class="form-control" id="text1" placeholder="Your Name">
-                            </div>
-                          </div>
-                          <div class="form-group">
-                            <div class="col-md-10">
-                              <button type="submit" class="btn btn-success">Sign in</button>
-                            </div>
-                          </div>
-                       </form> --><!-- form -->
-                </div><!-- col -->
-
-            </div><!-- row -->
-
-        </div><!-- container -->
-
-        <div id="footerwrap">
-            <div class="container">
-                ivorypenguin &copy; 2015
+                
+                <p>
+                    Our team understands the quirks and patterns of AI-generated code. We know where LLMs typically 
+                    fail, what security vulnerabilities they commonly introduce, and how to restructure their output 
+                    for real-world performance. We don't just fix bugs—we elevate your entire codebase.
+                </p>
             </div>
         </div>
+    </section>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Call Us Before Your AI Gets Too Confident.</h2>
+                <p>Don't let AI-generated code become a liability. Let us help you build something reliable.</p>
+                <div class="cta-actions">
+                    <a href="mailto:fixmycode@ivorypenguin.com" class="btn-primary">fixmycode@ivorypenguin.com</a>
+                    <a href="https://www.ivorypenguin.com" class="btn-secondary">www.ivorypenguin.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-item">
+                        <strong>Email:</strong>
+                        <a href="mailto:fixmycode@ivorypenguin.com">fixmycode@ivorypenguin.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Website:</strong>
+                        <a href="https://www.ivorypenguin.com">www.ivorypenguin.com</a>
+                    </div>
+                </div>
+                
+                <div class="contact-message">
+                    <h3>Ready to Fix Your Code?</h3>
+                    <p>
+                        Whether your AI-generated code is broken, insecure, or just needs professional polish, 
+                        we're here to help. Reach out and let's discuss how we can make your code production-perfect.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-    <!-- <script type="text/javascript" src="assets/js/retina.js"></script> -->
-    <script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
-    <script type="text/javascript" src="assets/js/jquery-func.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/img/iggie.png" alt="Ivory Penguin" class="footer-logo-img">
+                    <span>Ivory Penguin</span>
+                </div>
+                <p>&copy; 2025 Ivory Penguin. Making AI code production perfect.</p>
+            </div>
+        </div>
+    </footer>
 
-  ga('create', 'UA-49857164-1', 'ivorypenguin.com');
-  ga('send', 'pageview');
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-</script>
-  </body>
+      ga('create', 'UA-49857164-1', 'ivorypenguin.com');
+      ga('send', 'pageview');
+    </script>
+</body>
 </html>
